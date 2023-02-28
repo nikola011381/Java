@@ -8,6 +8,7 @@ public class Vezba2 {
         int sum=operand1 + operand2;
         System.out.println(sum);
 
+
         System.out.println("Unesi svoje ime:");
 
         Scanner scanner = new Scanner(System.in);
