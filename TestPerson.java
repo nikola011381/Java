@@ -17,6 +17,8 @@ public class TestPerson {
 
         System.out.println("Osoba jedan je "+ p1.firstName +" "+ p1.lastName + " ima godina "+ p1.age + " visoka je "+ p1.height +" cm " + "teska je " + p1.weight + "kg");
         System.out.println("Osoba dva je "+ p2.firstName +" "+ p2.lastName + " ima godina "+ p2.age + " visoka je "+ p2.height +" cm " + "teska je " + p2.weight + "kg");
-
+        p1.rodnomesto();
     }
+
+
 }

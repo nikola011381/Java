@@ -16,7 +16,6 @@ public class Vezba1 {
         System.out.println(2 + 2);
         ispisiText("cao cao");
     }
-
     public static void ispisiText (String text  ) {
         System.out.println(text);
     }
