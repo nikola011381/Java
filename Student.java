@@ -1,4 +1,3 @@
-public class Student extends Person {
+public class Student extends Person{
     String indexNum;
-
-}
+ }
