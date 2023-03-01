@@ -1,7 +1,7 @@
 public class Vezba1 {
     public static void main(String[] args) {
 /**
- *
+  koment test
  */
         System.out.println("Hello world !!"); // komentar
 
@@ -10,7 +10,7 @@ public class Vezba1 {
         */
 
         /**
-         *
+         koment test
          */
 
         System.out.println(2 + 2);
