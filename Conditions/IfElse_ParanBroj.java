@@ -9,18 +9,15 @@ public class IfElse_ParanBroj {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
 
-
         if (number % 2 == 0)
         {
             System.out.println("Broj je paran");
         }
 
-
         else   {
             System.out.println("Broj je neparan ");
 
         }
-
 
     }
 
