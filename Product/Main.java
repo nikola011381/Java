@@ -44,8 +44,7 @@ public class Main {
         double winetax=(wine.price+ (wine.price* wine.tax/100));
         System.out.println("Cena vina sa dodatnim porezom je : " + (winetax + (winetax* wine.taxplus/100)));
         System.out.println("Zapremina vina je : " + wbottlevolume);
-
-
-
+        System.out.println("Zapremina vina iz klase se nalazi ispod dole");
+        wine.printdata();
     }
 }
