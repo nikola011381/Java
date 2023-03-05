@@ -3,17 +3,18 @@ import java.util.Scanner;
 public class Vezba2 {
 
     public static void main(String[] args) {
-        int operand1=2;
-        int operand2=3;
-        int sum=operand1 + operand2;
-        System.out.println(sum);
+        int operand1=5;
+        int operand2=6;
+        int sum= operand1+operand2;
+
+        System.out.println(operand1 + " + " + operand2 + " = " + sum  );
 
 
-        System.out.println("Unesi svoje ime:");
+        System.out.println("What is your name?");
 
         Scanner scanner = new Scanner(System.in);
-        String ime = scanner.nextLine();
-        System.out.println("Dobrodosao " + ime  );
+        String name = scanner.nextLine();
+        System.out.println("Welcome " + name  );
 
     }
 }
