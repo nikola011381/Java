@@ -9,6 +9,7 @@ public class TestPerson {
         p1.height=183;
         p1.weight=95.3;
 
+
         Person p2 =new Person();
         p2.firstName ="Marko";
         p2.lastName ="Savic";

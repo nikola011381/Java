@@ -9,9 +9,9 @@ public class Card {
     public void charge(double charge){
         if(this.balance>=charge){
             this.balance -= charge;
-            System.out.println("Uspesno naplaceno: "+charge+" dinara.");
+            System.out.println("successfully charged "+charge+" eur.");
         } else {
-            System.out.println("Nedovoljno sredstava na racunu, naplata otkazana.");
+            System.out.println("Not enough money in the account, payment cancelled");
         }
     }
 }
