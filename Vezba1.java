@@ -1,12 +1,11 @@
 public class Vezba1 {
     public static void main(String[] args) {
-/**
- *
- */
-        System.out.println("Hello world !!"); // komentar
+
+        System.out.println("Hello World"); // comment after the code
 
         /*
-         komentar
+         multi-line comment
+         multi-line comment
         */
 
         /**
@@ -14,10 +13,10 @@ public class Vezba1 {
          */
 
         System.out.println(2 + 2);
-        ispisiText("cao cao");
+        printText("Print text");
     }
 
-    public static void ispisiText (String text  ) {
+    public static void printText (String text  ) {
         System.out.println(text);
     }
 
